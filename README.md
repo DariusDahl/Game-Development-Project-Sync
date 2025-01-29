@@ -6,7 +6,6 @@ This repository contains multiple Unity projects created for game development pr
 ## 🎮 Projects Included
 - **ApplePicker** – A simple game focused on object collection mechanics.
 - **HelloWorld** – A basic Unity project for learning foundational game development concepts.
-- **Unity Layout Project** – A project designed to experiment with Unity’s UI and layout system.
 
 ## 🚀 Getting Started
 ### 🔹 Clone the Repository
