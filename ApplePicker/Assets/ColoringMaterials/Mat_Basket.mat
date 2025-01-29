@@ -19,13 +19,15 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _Metallic _MetallicGlossMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
     - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
     m_Colors:
-    - _Color: {r: 0.8805031, g: 0.5123183, b: 0.080297366, a: 1}
+    - _Color: {r: 0.88235295, g: 0.6538775, b: 0.07843137, a: 1}
   m_BuildTextureStacks: []
