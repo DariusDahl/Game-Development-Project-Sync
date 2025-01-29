@@ -317,8 +317,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5725196118603595651, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1428502851572515018, guid: f79b024159b1e3348a8e06476be48337, type: 3}
+    - target: {fileID: 5725196118603595651, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
       propertyPath: changeDirChance
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669977966302684810, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669977966302684810, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669977966302684810, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8669977966302684810, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,6 +379,10 @@ PrefabInstance:
     - target: {fileID: 9086969333721200274, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 9107003401133952879, guid: ff8a5cfd8e7d4c54c865ed6210f96deb, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

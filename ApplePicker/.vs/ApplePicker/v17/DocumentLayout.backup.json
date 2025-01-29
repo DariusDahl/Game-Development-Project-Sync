@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Darius\\Game-Development-Project-Sync\\ApplePicker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{038AC0DE-28CA-E37D-8031-5621BA3E8786}|Assembly-CSharp.csproj|c:\\users\\darius\\game-development-project-sync\\applepicker\\assets\\applescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{038AC0DE-28CA-E37D-8031-5621BA3E8786}|Assembly-CSharp.csproj|solutionrelative:assets\\applescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{038AC0DE-28CA-E37D-8031-5621BA3E8786}|Assembly-CSharp.csproj|c:\\users\\darius\\game-development-project-sync\\applepicker\\assets\\appletreescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{038AC0DE-28CA-E37D-8031-5621BA3E8786}|Assembly-CSharp.csproj|solutionrelative:assets\\appletreescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppleScript.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Game-Development-Project-Sync\\ApplePicker\\Assets\\AppleScript.cs",
-              "RelativeDocumentMoniker": "Assets\\AppleScript.cs",
-              "ToolTip": "C:\\Users\\Darius\\Game-Development-Project-Sync\\ApplePicker\\Assets\\AppleScript.cs",
-              "RelativeToolTip": "Assets\\AppleScript.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:34:31.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AppleTreeScript.cs",
               "DocumentMoniker": "C:\\Users\\Darius\\Game-Development-Project-Sync\\ApplePicker\\Assets\\AppleTreeScript.cs",
               "RelativeDocumentMoniker": "Assets\\AppleTreeScript.cs",
               "ToolTip": "C:\\Users\\Darius\\Game-Development-Project-Sync\\ApplePicker\\Assets\\AppleTreeScript.cs",
               "RelativeToolTip": "Assets\\AppleTreeScript.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T22:30:29.674Z",
               "EditorCaption": ""

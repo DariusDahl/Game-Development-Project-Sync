@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ApplePickerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    public static float bottomY = -20;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.y < bottomY)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
