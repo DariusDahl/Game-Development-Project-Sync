@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 // using UnityEngine.UI; // We need this line for uGUI to work
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class HighScoreScript : MonoBehaviour
 {
@@ -55,4 +57,15 @@ public class HighScoreScript : MonoBehaviour
             Debug.LogWarning("PlayerPrefs HighScore has been reset to 1000");
         }
     }
+
+    void GameOver()
+    {
+        // Save the final score before switching scenes
+        PlayerPrefs.SetInt("FinalScore", SCORE);
+        PlayerPrefs.Save();
+
+        // Load the Game Over screen
+        SceneManager.LoadScene("GameOverScreen");
+    }
+
 }
