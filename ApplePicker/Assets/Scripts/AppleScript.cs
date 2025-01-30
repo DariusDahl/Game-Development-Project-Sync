@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ApplePickerScript : MonoBehaviour
+public class AppleScript : MonoBehaviour
 {
 
     public static float bottomY = -20;
