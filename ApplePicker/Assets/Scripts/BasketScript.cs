@@ -43,12 +43,16 @@ public class BasketScript : MonoBehaviour
     {
         // Find out what hit this basket
         GameObject collidedWith = coll.gameObject;
-        if (collidedWith.CompareTag("Apple"))
+
+        if (collidedWith.CompareTag("Apple") || collidedWith.CompareTag("GoldenApple"))
         {
-            Destroy(collidedWith);
-            // Increase the score
-            scoreCounter.score += 100;
+            AppleScript apple = collidedWith.GetComponent<AppleScript>();
+            if (apple != null) {
+                scoreCounter.score += apple.points; // Use the correct apple point value
+            }
+
             HighScoreScript.TRY_SET_HIGH_SCORE(scoreCounter.score); 
+            Destroy(collidedWith);
         }
     }
 }

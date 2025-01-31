@@ -9,8 +9,11 @@ public class AppleTreeScript : MonoBehaviour
     // Prefab for instantiating Apples
     public GameObject applePrefab;
 
+    // Prefab for instantiating Golden Apples
+    public GameObject goldenApplePrefab;
+
     // Speed at which the AppleTree moves
-    public float speed = 1f;
+    public float speed = 2f;
 
     // Distance where AppleTree turns around
     public float leftAndRightEdge = 10f;
@@ -19,19 +22,33 @@ public class AppleTreeScript : MonoBehaviour
     public float changeDirChance = 0.1f;
 
     // Seconds between Apple instantiations
-    public float appleDropDelay = 1f;
+    public float appleDropDelay = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (goldenApplePrefab == null) {
+            Debug.LogError("No Golden Apple prefab assigned!", this);
+        }
+
         // Start dropping apples
-        Invoke("DropApple", 2f);
+        Invoke("DropApple", 1f);
     }
 
     void DropApple()
-    {
-        GameObject apple = Instantiate<GameObject>(applePrefab);
-        apple.transform.position = transform.position;
+    {    
+        // 1 in 5 chance to spawn a golden apple
+        if (Random.Range(0, 5) == 0) {
+            GameObject applePrefabToSpawn = Instantiate<GameObject>(goldenApplePrefab); // Instantiate the Golden Apple prefab
+            applePrefabToSpawn.transform.position = transform.position;
+        } else{
+            GameObject applePrefabToSpawn = Instantiate<GameObject>(applePrefab); // Instantiate the Apple prefab
+            applePrefabToSpawn.transform.position = transform.position;
+        }
+
+        // GameObject apple = Instantiate<GameObject>(applePrefabToSpawn);
+        // apple.transform.position = transform.position;
+
         Invoke("DropApple", appleDropDelay);
     }
 

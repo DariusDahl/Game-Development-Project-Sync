@@ -6,6 +6,14 @@ public class AppleScript : MonoBehaviour
 {
 
     public static float bottomY = -20f;
+    public int points = 100;
+
+    void Start() {
+        // Check if this is a Golden Apple and update points accordingly
+        if (gameObject.CompareTag("GoldenApple")) {
+            points = 300; // Golden Apples are worth 300 points
+        }
+    }
 
     // Update is called once per frame
     void Update()

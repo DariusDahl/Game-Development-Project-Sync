@@ -20,6 +20,6 @@ public class ScoreCounterScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        uiText.text = score.ToString("#,0");
+        uiText.text = score.ToString("Score: #,0");
     }
 }

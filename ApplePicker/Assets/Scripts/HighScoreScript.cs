@@ -57,15 +57,4 @@ public class HighScoreScript : MonoBehaviour
             Debug.LogWarning("PlayerPrefs HighScore has been reset to 1000");
         }
     }
-
-    void GameOver()
-    {
-        // Save the final score before switching scenes
-        PlayerPrefs.SetInt("FinalScore", SCORE);
-        PlayerPrefs.Save();
-
-        // Load the Game Over screen
-        SceneManager.LoadScene("GameOverScreen");
-    }
-
 }

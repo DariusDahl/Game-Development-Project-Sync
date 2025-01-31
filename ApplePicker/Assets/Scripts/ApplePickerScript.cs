@@ -11,6 +11,8 @@ public class ApplePickerScript : MonoBehaviour
     public float basketBottomY = -14f;
     public float basketSpacingY = 2f;
     public List<GameObject> basketList;
+    private ScoreCounterScript scoreCounter; // Reference to ScoreCounterScript
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +26,31 @@ public class ApplePickerScript : MonoBehaviour
             tBasketGO.transform.position = pos;
             basketList.Add(tBasketGO);
         }
+
+        // Find ScoreCounterScript in the scene
+        GameObject scoreCounterGO = GameObject.Find("ScoreCounter");
+        if (scoreCounterGO != null)
+        {
+            scoreCounter = scoreCounterGO.GetComponent<ScoreCounterScript>();
+        }
+        else
+        {
+            Debug.LogError("ScoreCounter GameObject not found in the scene.");
+        }
     }
 
     public void AppleMissed()
     {
         // Destory all of the falling Apples
         GameObject[] appleArray = GameObject.FindGameObjectsWithTag("Apple");
+        GameObject[] goldenAppleArray = GameObject.FindGameObjectsWithTag("GoldenApple");
+
         foreach (GameObject tempGO in appleArray)
+        {
+            Destroy(tempGO);
+        }
+
+        foreach (GameObject tempGO in goldenAppleArray)
         {
             Destroy(tempGO);
         }
@@ -47,13 +67,13 @@ public class ApplePickerScript : MonoBehaviour
         // If there are no more Baskets left, restart the game
         if (basketList.Count == 0)
         {
-            SceneManager.LoadScene("_Scene_0");
+            if (scoreCounter != null)
+            {
+                HighScoreScript.TRY_SET_HIGH_SCORE(scoreCounter.score); // Save high score
+                PlayerPrefs.SetInt("FinalScore", scoreCounter.score);  // Save final score
+                PlayerPrefs.Save();
+            }
+            SceneManager.LoadScene("GameOverScreen"); // Load Game Over Scene
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
