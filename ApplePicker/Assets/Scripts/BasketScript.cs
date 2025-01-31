@@ -53,6 +53,12 @@ public class BasketScript : MonoBehaviour
 
             HighScoreScript.TRY_SET_HIGH_SCORE(scoreCounter.score); 
             Destroy(collidedWith);
+        } else if (collidedWith.CompareTag("PoisonApple")) {
+            Destroy(collidedWith); // Remove the Poison Apple from the scene
+
+            // Remove a basket (life)
+            ApplePickerScript apScript = Camera.main.GetComponent<ApplePickerScript>();
+            apScript.AppleMissed();
         }
     }
 }

@@ -12,6 +12,9 @@ public class AppleTreeScript : MonoBehaviour
     // Prefab for instantiating Golden Apples
     public GameObject goldenApplePrefab;
 
+    // Prefab for instantiating Poison Apples
+    public GameObject poisonApplePrefab;
+
     // Speed at which the AppleTree moves
     public float speed = 2f;
 
@@ -37,17 +40,25 @@ public class AppleTreeScript : MonoBehaviour
 
     void DropApple()
     {    
+        GameObject applePrefabToSpawn;
+        
         // 1 in 5 chance to spawn a golden apple
         if (Random.Range(0, 5) == 0) {
-            GameObject applePrefabToSpawn = Instantiate<GameObject>(goldenApplePrefab); // Instantiate the Golden Apple prefab
-            applePrefabToSpawn.transform.position = transform.position;
+            // GameObject applePrefabToSpawn = Instantiate<GameObject>(goldenApplePrefab); // Instantiate the Golden Apple prefab
+            // applePrefabToSpawn.transform.position = transform.position;
+            applePrefabToSpawn = goldenApplePrefab;
+        } else if (Random.Range(0, 5) == 0) {
+            // GameObject applePrefabToSpawn = Instantiate<GameObject>(poisonApplePrefab) // Instantiate the Poison Apple prefab
+            // applePrefabToSpawn.transform.position = transform.position;
+            applePrefabToSpawn = poisonApplePrefab;            
         } else{
-            GameObject applePrefabToSpawn = Instantiate<GameObject>(applePrefab); // Instantiate the Apple prefab
-            applePrefabToSpawn.transform.position = transform.position;
+            // GameObject applePrefabToSpawn = Instantiate<GameObject>(applePrefab); // Instantiate the Apple prefab
+            // applePrefabToSpawn.transform.position = transform.position;
+            applePrefabToSpawn = applePrefab;
         }
 
-        // GameObject apple = Instantiate<GameObject>(applePrefabToSpawn);
-        // apple.transform.position = transform.position;
+        GameObject apple = Instantiate<GameObject>(applePrefabToSpawn);
+        apple.transform.position = transform.position;
 
         Invoke("DropApple", appleDropDelay);
     }

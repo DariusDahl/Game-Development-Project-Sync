@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Apple
   - GoldenApple
+  - PoisonApple
   layers:
   - Default
   - TransparentFX
