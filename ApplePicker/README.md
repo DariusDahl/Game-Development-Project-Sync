@@ -18,15 +18,23 @@ Welcome to **ApplePicker**, a fun and engaging game where you catch apples in a 
 ✅ **Smooth Controls** – Easy-to-use controls for a seamless gaming experience.
 ✅ **Non-Fullscreen Window** – Runs in windowed mode for easy quitting (no forced fullscreen).
 
-## 🔥 Play the Game
-### **Download the Executable**
-You can download the **ApplePickerGame.exe** file from the [GitHub Releases section](https://github.com/DariusDahl/Game-Development-Project-Sync/releases) or directly from the `Builds/` folder in this repository.
+🔥 Play the Game
 
-**To play:**
-1. Download `ApplePickerGame.exe`
-2. Double-click to run
-3. Enjoy!
+Download the Build Folder
 
+You can download the full build from the GitHub Releases section or directly from the Builds/ folder in this repository.
+
+Important:
+
+The game cannot be run using just the .exe file. You must download and keep the entire Builds folder together, as it contains essential files like UnityPlayer.dll and the *_Data folder.
+
+To play:
+
+Download and extract the Builds folder.
+
+Open the folder and run ApplePickerGame.exe.
+
+Enjoy!
 ## 📷 Screenshots
 <img src="https://github.com/DariusDahl/Game-Development-Project-Sync/blob/main/ApplePicker/Screenshots/Screenshot%202025-01-31%20011747.png" alt="Starting Screen" style="width: 500px; height: auto;">
 
