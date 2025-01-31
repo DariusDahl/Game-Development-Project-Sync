@@ -20,7 +20,7 @@ Welcome to **ApplePicker**, a fun and engaging game where you catch apples in a 
 
 ## 🔥 Play the Game
 ### **Download the Build Folder**
-You can download the full build from the [GitHub Releases section](https://github.com/DariusDahl/Game-Development-Project-Sync/releases) or directly from the `Builds/` folder in this repository.
+You can download the full build directly from the `Builds/` folder in this repository.
 
 ### **Important:**
 The game **cannot be run using just the `.exe` file**. You must download and keep the **entire `Builds` folder** together, as it contains essential files like `UnityPlayer.dll` and the `*_Data` folder.
