@@ -74,10 +74,17 @@ public class Slingshot : MonoBehaviour {
             projectileRigidbody.isKinematic = false;
             projectileRigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
             projectileRigidbody.velocity = -mouseDelta * velocityMult;
+
+            // switch to slingshot view immediately before setting POI
+            FollowCam.SWITCH_VIEW(FollowCam.eView.slingshot);
+
             FollowCam.POI = projectile; // Set the _MainCamera POI
+
             // Add a ProjectileLine to the Projectile
             Instantiate<GameObject>(projLinePrefab, projectileRigidbody.transform);
+
             projectile = null;
+            MissionDemolition.SHOT_FIRED();
         }
     }
 

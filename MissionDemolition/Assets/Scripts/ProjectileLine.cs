@@ -46,7 +46,7 @@ public class ProjectileLine : MonoBehaviour {
         // Iterate over all the old lines and dim them
         foreach ( ProjectileLine pl in PROJ_LINES ) {
             col = pl._line.startColor;
-            col *= DIM_MULT;
+            col = col * DIM_MULT;
             pl._line.startColor = pl._line.endColor = col;
         }
 
