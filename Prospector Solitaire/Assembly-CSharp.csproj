@@ -65,6 +65,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\__Scripts\JsonParseDeck.cs" />
+    <Compile Include="Assets\__Scripts\Deck.cs" />
+    <Compile Include="Assets\__Scripts\Card.cs" />
     <Compile Include="Assets\__Scripts\CardSpriteSO.cs" />
     <Compile Include="Assets\__Scripts\Utils.cs" />
   </ItemGroup>
