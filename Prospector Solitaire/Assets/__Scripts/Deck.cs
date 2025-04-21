@@ -19,9 +19,12 @@ public class Deck : MonoBehaviour {
 
     static public GameObject SPRITE_PREFAB { get; private set; }
 
+/*
     void Start() {
         InitDeck();
+        Shuffle(ref cards);
     }
+*/
 
     /// <summary>
     /// The Prospector class will call InitDeck to set up the deck and build
@@ -82,4 +85,29 @@ public class Deck : MonoBehaviour {
 
         return card;
     }
+
+    /// <summary>
+    /// Shuffle a List(Card) and return the result to the original list.
+    /// </summary>
+    /// <param name="refCards">As a ref, this alters on the original list</param>
+    static public void Shuffle(ref List<Card> refCards) {
+        // Create a temporary List to hold the new shuffle order
+        List<Card> tCards = new List<Card>();
+
+        int ndx; // This will hold the index of the card to be moved
+
+        // Repeat as long as there are cards in the original List
+        while (refCards.Count > 0) {
+            // Pick the index of a random card
+            ndx = Random.Range(0, refCards.Count);
+            // Add that card to the temporary List
+            tCards.Add(refCards[ndx]);
+            // And remove that card from the original List
+            refCards.RemoveAt(ndx);
+        }
+
+        // Replace the original List with the temporary List
+        refCards = tCards;
+    }
+
 }
