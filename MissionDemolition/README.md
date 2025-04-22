@@ -10,12 +10,12 @@ Welcome to MissionDemolition, a physics-based game where you launch projectiles 
 - Try to complete all levels using the fewest shots
 
 ## 🛠 Unique Features
-- Multi-Level Gameplay – Includes five castle levels that increase in challenge.
-- Slingshot Aiming System – Intuitive click-and-drag controls to set power and angle.
-- Camera Follow Modes – Switch between slingshot view, castle view, or both with a dedicated button.
-- Projectile Trails – See the paths of previous shots to better judge your next.
-- Shot Counter UI – Tracks and displays the number of shots taken so far.
-- Goal Indicator – The green goal changes transparency when hit to confirm success.
+- **Multi-Level Gameplay** – Includes five castle levels that increase in challenge.
+- **Slingshot Aiming System** – Intuitive click-and-drag controls to set power and angle.
+- **Camera Follow Modes** – Switch between slingshot view, castle view, or both with a dedicated button.
+- **Projectile Trails** – See the paths of previous shots to better judge your next.
+- **Shot Counter UI** – Tracks and displays the number of shots taken so far.
+- **Goal Indicator** – The green goal changes transparency when hit to confirm success.
 
 ## 🔥 Play the Game
 ### **Download the Build Folder**
