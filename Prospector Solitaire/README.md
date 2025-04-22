@@ -1,6 +1,6 @@
 # Prospector Solitaire
 
-Welcome to **Prospector Solitaire**, a stylish twist on the classic Tri-Peaks card game! Clear the board by selecting cards in ascending or descending order, keeping your streak alive and your score climbing. This version was built entirely in Unity, with a smooth UI and animated card transitions.
+Welcome to Prospector Solitaire, a stylish twist on the classic Tri-Peaks card game! Clear the board by selecting cards in ascending or descending order, keeping your streak alive and your score climbing. This version was built entirely in Unity, with a smooth UI and animated card transitions.
 
 ## 🎮 How to Play
 - Click face-up cards from the mine that are one rank above or below the current target card.
