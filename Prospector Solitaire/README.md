@@ -33,9 +33,6 @@ This folder contains all the Unity project files necessary to build, run, and ex
 - **BezierMover** – Custom script for animating objects using Bézier paths
 - **PlayerPrefs** – Local high score saving and reset functionality
 
-## 📜 License
-This project is open-source and available for anyone to play, improve, or remix. Fork it, make your own layout, or swap out the graphics – have fun!
-
 ---
 
 Enjoy playing **Prospector Solitaire**! ♠️♦️♣️♥️
