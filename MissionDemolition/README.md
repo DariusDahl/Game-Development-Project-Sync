@@ -1,6 +1,6 @@
 # MissionDemolition Game
 
-Welcome to **MissionDemolition**, a physics-based game where you launch projectiles at castles using a slingshot! Knock down the castle with the fewest shots possible as you progress through multiple levels.
+Welcome to MissionDemolition, a physics-based game where you launch projectiles at castles using a slingshot! Knock down the castle with the fewest shots possible as you progress through multiple levels.
 
 ## 🎮 How to Play
 - Click and drag on the slingshot to aim your shot
