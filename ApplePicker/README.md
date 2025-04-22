@@ -10,13 +10,13 @@ Welcome to ApplePicker, a fun and engaging game where you catch apples in a bask
 - Try to set the highest score possible!
 
 ## 🛠 Unique Features
-- ✅ Golden Apples – Rare golden apples worth **300 points** instead of the usual 100.
-- ✅ Poison Apples – Catching these will **remove a basket**, but missing them does **no penalty**.
-- ✅ Game Over Screen – Displays the final score and high score, allowing you to restart.
-- ✅ Start Menu – A dedicated start screen with a clean UI before the game begins.
-- ✅ Increasing Difficulty – Apples fall faster as the game progresses, making it more challenging.
-- ✅ Smooth Controls – Easy-to-use controls for a seamless gaming experience.
-- ✅ Non-Fullscreen Window – Runs in windowed mode for easy quitting (no forced fullscreen).
+- Golden Apples – Rare golden apples worth **300 points** instead of the usual 100.
+- Poison Apples – Catching these will **remove a basket**, but missing them does **no penalty**.
+- Game Over Screen – Displays the final score and high score, allowing you to restart.
+- Start Menu – A dedicated start screen with a clean UI before the game begins.
+- Increasing Difficulty – Apples fall faster as the game progresses, making it more challenging.
+- Smooth Controls – Easy-to-use controls for a seamless gaming experience.
+- Non-Fullscreen Window – Runs in windowed mode for easy quitting (no forced fullscreen).
 
 ## 🔥 Play the Game
 ### **Download the Build Folder**
