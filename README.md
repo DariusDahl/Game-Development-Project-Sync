@@ -4,6 +4,8 @@
 This repository contains multiple Unity projects created for game development practice and experimentation. It serves as a version-controlled backup and allows easy synchronization across multiple devices.
 
 ## 🎮 Projects Included
+- **Prospector Solitaire** – A stylish Tri-Peaks-inspired solitaire game with animations, scoring, and UI.
+- **Mission Demolition** – A physics-based projectile game inspired by Angry Birds, showcasing slingshot mechanics, destructible targets, and camera follow dynamics.
 - **ApplePicker** – A simple game focused on object collection mechanics.
 - **HelloWorld** – A basic Unity project for learning foundational game development concepts.
 
