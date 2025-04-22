@@ -10,19 +10,19 @@ Welcome to **MissionDemolition**, a physics-based game where you launch projecti
 - Try to complete all levels using the fewest shots
 
 ## 🛠 Unique Features
-- **Multi-Level Gameplay** – Includes five castle levels that increase in challenge.
-- **Slingshot Aiming System** – Intuitive click-and-drag controls to set power and angle.
-- **Camera Follow Modes** – Switch between slingshot view, castle view, or both with a dedicated button.
-- **Projectile Trails** – See the paths of previous shots to better judge your next.
-- **Shot Counter UI** – Tracks and displays the number of shots taken so far.
-- **Goal Indicator** – The green goal changes transparency when hit to confirm success.
+- Multi-Level Gameplay – Includes five castle levels that increase in challenge.
+- Slingshot Aiming System – Intuitive click-and-drag controls to set power and angle.
+- Camera Follow Modes – Switch between slingshot view, castle view, or both with a dedicated button.
+- Projectile Trails – See the paths of previous shots to better judge your next.
+- Shot Counter UI – Tracks and displays the number of shots taken so far.
+- Goal Indicator – The green goal changes transparency when hit to confirm success.
 
 ## 🔥 Play the Game
 ### **Download the Build Folder**
 You can download the full build directly from the `Builds/` folder in this repository.
 
 ### **Important:**
-The game **cannot be run using just the `.exe` file**. You must download and keep the **entire `Builds` folder** together, as it contains essential files like `UnityPlayer.dll` and the `MissionDemolition_Data` folder.
+The game cannot be run using just the `.exe` file. You must download and keep the entire `Builds` folder together, as it contains essential files like `UnityPlayer.dll` and the `MissionDemolition_Data` folder.
 
 **To play:**
 1. Download and extract the `Builds` folder.
@@ -40,5 +40,5 @@ This project is open-source and available for anyone to play or modify. Feel fre
 
 ---
 
-Enjoy playing **MissionDemolition**! 🏰🔫
+Enjoy playing MissionDemolition! 🏰🔫
 
