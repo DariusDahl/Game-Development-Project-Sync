@@ -17,8 +17,8 @@ To download the projects, use the following command:
 ```
 
 ### 🔹 Open in Unity
-1. Open **Unity Hub**.
-2. Click **"Add"** and navigate to the cloned folder.
+1. Open Unity Hub.
+2. Click "Add" and navigate to the cloned folder.
 3. Select the desired project and open it.
 
 ## 🔄 Keeping Your Local Version Updated
@@ -36,14 +36,14 @@ git push origin main
 
 ## 🤝 Contributing
 If you'd like to contribute or suggest improvements:
-1. **Fork the repository** on GitHub.
+1. Fork the repository on GitHub.
 2. Create a new branch for your changes.
-3. Submit a **pull request** with your improvements.
+3. Submit a pull request with your improvements.
 
 ## 📜 License
 This repository is publicly available, but specific projects may have individual licensing terms. Feel free to explore, but always check for any specific project usage permissions.
 
 ---
 ### **🎯 Contact & Feedback**
-If you have any questions, feel free to open an **Issue** on GitHub!
+If you have any questions, feel free to open an Issue on GitHub!
 
